@@ -1,0 +1,138 @@
+            div.wrapper { width: 940px; margin: 0 auto; padding: 0 30px 36px; position: relative; }
+            div#header { background: #f5f5f5; height: 72px; border-bottom: 1px solid #eee; margin: 0; }
+            div#header h4 { float: left; position: absolute; top: 24px; left: 145px; border-left: 1px solid #ddd; padding-left: 14px; }
+            div#header h4 small { font-size: 14px; font-weight: normal; }
+            div#header h4 a, div#header h4 a:visited { font-weight: normal; }
+            
+            div.page-header { padding: 0 0 8px; margin: 18px 0; border-bottom: 1px solid #ddd; }
+            div.page-header h1 { padding: 0; margin: 0; font-size: 24px; line-height: 27px; letter-spacing: 0; }
+            
+.awesome, .awesome:visited {
+    background: #222 url(alert-overlay.png) repeat-x; 
+    display: inline-block; 
+    padding: 5px 10px 6px; 
+    color: #fff; 
+    text-decoration: none;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer;
+}
+
+    .awesome:hover                          { background-color: #111; color: #fff; }
+    .awesome:active                         { top: 1px; }
+    .small.awesome, .small.awesome:visited          { font-size: 11px; padding: ; }
+    .awesome, .awesome:visited,
+    .medium.awesome, .medium.awesome:visited        { font-size: 13px; font-weight: bold; line-height: 1; text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+    .large.awesome, .large.awesome:visited          { font-size: 14px; padding: 8px 14px 9px; }
+    
+    .green.awesome, .green.awesome:visited      { background-color: #91bd09; }
+    .green.awesome:hover                        { background-color: #749a02; }
+    .blue.awesome, .blue.awesome:visited        { background-color: #2daebf; }
+    .blue.awesome:hover                         { background-color: #007d9a; }
+    .red.awesome, .red.awesome:visited          { background-color: #e33100; }
+    .red.awesome:hover                          { background-color: #872300; }
+    .magenta.awesome, .magenta.awesome:visited      { background-color: #a9014b; }
+    .magenta.awesome:hover                          { background-color: #630030; }
+    .orange.awesome, .orange.awesome:visited        { background-color: #ff5c00; }
+    .orange.awesome:hover                           { background-color: #d45500; }
+    .yellow.awesome, .yellow.awesome:visited        { background-color: #ffb515; }
+    .yellow.awesome:hover                           { background-color: #fc9200; }
+
+/*buttons from http://blog.kippt.com/2012/04/26/building-with-bootstrap/*/
+.btn {
+      font-weight: bold;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-top: 1px solid #ddd;
+      color: #333;
+      text-shadow: 0 1px 0px #fff;
+      border-bottom: 1px solid #aaa;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      border-radius: 3px;
+      background-color: #eeeeee;
+      background-image: -moz-linear-gradient(#fefefe, #eeeeee);
+      background-image: -o-linear-gradient(#fefefe, #eeeeee);
+      background-image: -ms-linear-gradient(#fefefe, #eeeeee);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #eeeeee));
+      background-image: -webkit-linear-gradient(#fefefe, #eeeeee);
+      box-shadow: 0 1px 1px #cccccc, inset 0 1px 0 rgba(255, 255, 255, 0.25);
+      -webkit-transition: 0.15s border-color linear;
+      -moz-transition: 0.15s border-color linear; }
+
+    .btn:hover {
+      background-position: 0 0;
+      border-color: #bbb;
+      -webkit-transition: 0.15s border-color linear;
+      -moz-transition: 0.15s border-color linear; }
+
+    .btn-white {
+      background-color: #efefef;
+      background-image: -moz-linear-gradient(white, #efefef);
+      background-image: -o-linear-gradient(white, #efefef);
+      background-image: -ms-linear-gradient(white, #efefef);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
+      background-image: -webkit-linear-gradient(white, #efefef);
+      box-shadow: 0 1px 1px #eee; }
+
+    .btn.btn-primary {
+      background: #f56615;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+      border-color: #d8541b;
+      font-weight: bold;
+      background-color: #f35411;
+      background-image: -moz-linear-gradient(#f56615, #f35411);
+      background-image: -o-linear-gradient(#f56615, #f35411);
+      background-image: -ms-linear-gradient(#f56615, #f35411);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f56615), color-stop(1, #f35411));
+      background-image: -webkit-linear-gradient(#f56615, #f35411);
+      -webkit-box-shadow: compact(inset 0 1px 0 rgba(255, 255, 255, 0.2), false, false, false, false, false, false, false, false, false);
+      -moz-box-shadow: compact(inset 0 1px 0 rgba(255, 255, 255, 0.2), false, false, false, false, false, false, false, false, false);
+      box-shadow: compact(inset 0 1px 0 rgba(255, 255, 255, 0.2), false, false, false, false, false, false, false, false, false); }
+
+    .btn-primary:hover, .btn-green:hover {
+      color: #fff; }
+
+    .btn-primary:active {
+      background: #f56615; }
+
+    .btn-green {
+      background: #65c31f;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+      border-color: #57af17;
+      font-weight: bold;
+      background-color: #65c31f;
+      background-image: -moz-linear-gradient(#94d52d, #65c31f);
+      background-image: -o-linear-gradient(#94d52d, #65c31f);
+      background-image: -ms-linear-gradient(#94d52d, #65c31f);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #94d52d), color-stop(1, #65c31f));
+      background-image: -webkit-linear-gradient(#94d52d, #65c31f); }
+
+    .btn-green:hover {
+      background-position: 0 0;
+      border-color: #56ad14; }
+
+    .btn-green:active {
+      background: #65c31f; }
+
+    .btn-red {
+      background: #dc5333;
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+      border-color: #c92c14;
+      font-weight: bold;
+      background-color: #d73d2c;
+      background-image: -moz-linear-gradient(#e65841, #d73d2c);
+      background-image: -o-linear-gradient(#e65841, #d73d2c);
+      background-image: -ms-linear-gradient(#e65841, #d73d2c);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e65841), color-stop(1, #d73d2c));
+      background-image: -webkit-linear-gradient(#e65841, #d73d2c); }

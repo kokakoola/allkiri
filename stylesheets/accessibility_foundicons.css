@@ -1,0 +1,160 @@
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 7, ../sass/accessibility_foundicons.scss */
+[class*="socialicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 17, ../sass/accessibility_foundicons.scss */
+[class*="socialicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 10, ../sass/_settings.scss */
+.socialicon-wheelchair:before {
+  content: "\f000";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-speaker:before {
+  content: "\f001";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-fontsize:before {
+  content: "\f002";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-eject:before {
+  content: "\f003";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-view-mode:before {
+  content: "\f004";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-eyeball:before {
+  content: "\f005";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-asl:before {
+  content: "\f006";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-person:before {
+  content: "\f007";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-question:before {
+  content: "\f008";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-adult:before {
+  content: "\f009";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-child:before {
+  content: "\f00a";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-glasses:before {
+  content: "\f00b";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-cc:before {
+  content: "\f00c";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-blind:before {
+  content: "\f00d";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-braille:before {
+  content: "\f00e";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-iphone-home:before {
+  content: "\f00f";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-w3c:before {
+  content: "\f010";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-css:before {
+  content: "\f011";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-key:before {
+  content: "\f012";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-hearing-impaired:before {
+  content: "\f013";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-male:before {
+  content: "\f014";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-female:before {
+  content: "\f015";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-network:before {
+  content: "\f016";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-guidedog:before {
+  content: "\f017";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-universal-access:before {
+  content: "\f018";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-elevator:before {
+  content: "\f019";
+}

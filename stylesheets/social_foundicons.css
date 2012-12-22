@@ -1,0 +1,180 @@
+/* font-face */
+@font-face {
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+/* line 7, ../sass/social_foundicons.scss */
+[class*="socialicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 17, ../sass/social_foundicons.scss */
+[class*="socialicon-"]:before {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 10, ../sass/_settings.scss */
+.socialicon-thumb-up:before {
+  content: "\f000";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-thumb-down:before {
+  content: "\f001";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-rss:before {
+  content: "\f002";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-facebook:before {
+  content: "\f003";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-twitter:before {
+  content: "\f004";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-pinterest:before {
+  content: "\f005";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-github:before {
+  content: "\f006";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-path:before {
+  content: "\f007";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-linkedin:before {
+  content: "\f008";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-dribbble:before {
+  content: "\f009";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-stumble-upon:before {
+  content: "\f00a";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-behance:before {
+  content: "\f00b";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-reddit:before {
+  content: "\f00c";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-google-plus:before {
+  content: "\f00d";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-youtube:before {
+  content: "\f00e";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-vimeo:before {
+  content: "\f00f";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-flickr:before {
+  content: "\f010";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-slideshare:before {
+  content: "\f011";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-picassa:before {
+  content: "\f012";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-skype:before {
+  content: "\f013";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-steam:before {
+  content: "\f014";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-instagram:before {
+  content: "\f015";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-foursquare:before {
+  content: "\f016";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-delicious:before {
+  content: "\f017";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-chat:before {
+  content: "\f018";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-torso:before {
+  content: "\f019";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-tumblr:before {
+  content: "\f01a";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-video-chat:before {
+  content: "\f01b";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-digg:before {
+  content: "\f01c";
+}
+
+/* line 10, ../sass/_settings.scss */
+.socialicon-wordpress:before {
+  content: "\f01d";
+}

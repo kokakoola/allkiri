@@ -1,0 +1,66 @@
+/*
+* Allkiri.ee custom style
+* Base style Zurb Foundation 3
+* made by Mare Hunt 2012 marehunt.era.ee
+* for Deskrock www.deskrock.ee
+*/
+/* Table of Content
+==================================================
+    #Overrides
+    #Site Styles
+    #Page Styles
+    #Media Queries
+    #Font-Face */
+
+/* #Overrides for default Foundation
+================================================== */
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.top-bar {
+    margin: 0;
+}
+
+/* #Site Styles
+================================================== */
+
+
+/* #Page Styles
+================================================== */
+
+/* #Index
+================================================== */
+#subtop {
+    background-color: #E6E6E6;
+    overflow: auto;
+    width: 100%;
+    padding: auto;
+    li {
+        padding-left: 15px;
+        line-height: 4;
+    }
+}
+#choose {
+    margin: 120px auto;
+}
+
+#partners img  {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%); 
+    -o-filter: grayscale(100%);
+    &:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); 
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%); 
+        -o-filter: grayscale(0%);
+    }
+}
+#enter p { padding-top: 20px;}
+
+/* #Portaal
+================================================== */
