@@ -1,1 +1,95 @@
+/*
+* Allkiri.ee custom style
+* Base style Zurb Foundation 3
+* made by Mare Hunt 2012 marehunt.era.ee
+* for Deskrock www.deskrock.ee
+*/
+/* Table of Content
+==================================================
+    #Overrides
+    #Site Styles
+    #Page Styles
+    #Media Queries
+    #Font-Face */
 
+/* #Overrides for default Foundation
+================================================== */
+
+@mixin box-shadow($shadows...) {
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+h2, h3 {
+    font-family: 'Antic Slab', serif;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+}
+body {
+    background: #F8FAF0;
+    z-index: 1;
+}
+body:after {
+    content:"";
+    background: url('../images/wavecut.png') repeat;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+#contract.panel {
+    background: white;
+}
+
+// stroke-middle-headline
+h2 {
+text-align: center;
+text-shadow: 0 1px 1px white;
+color: #92989E;
+font-size: 18px;
+}
+
+h2 span {
+padding-left: 10px;
+padding-right: 10px;
+background-color: #F4F5F5;
+}
+
+// box shadow crisp
+#introimg {
+background-color: #fffeff;
+  padding: 10px;
+  
+  border: 1px solid #bbbfc2;
+  min-height: 180px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+   @include box-shadow(#dadee1, 0px, 1px, 10px);
+  display: block;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -webkit-background-clip: padding-box;
+}
+
+#introimg:hover {
+    -webkit-box-shadow: 0px 0px 2px #60a2e3;
+  -moz-box-shadow: 0px 0px 2px #60a2e3;
+  border: 1px solid #60a2e3;
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  position: relative;
+}
+
+.oldshadow { 
+    background: white;
+    box-shadow: inset 0 0 50px #ebebeb; 
+}

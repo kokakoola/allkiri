@@ -15,7 +15,10 @@
 	<!-- Included CSS Files -->
 	<link rel="stylesheet" href="stylesheets/app.css">
 	<link rel="stylesheet" href="stylesheets/awesome_buttons.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Antic' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
@@ -56,13 +59,14 @@
     	<div id="subtop" class="container">
     		<div class="row">
     			<div class="twelve columns">
-	    		<div id="enter" class="six columns offset-by-three">
+	    		<div id="enter" class="six columns offset-by-one">
 	    			<p>Soovid sa vaadata oma salvestatud dokumente? Astu sisse!</p>
 	    		</div>
-	    		<div class="right">
+	    		<div class="five columns right">
 		    		<ul id="login" class="button-group">
-		    			<li><a href="portaal.html" class="radius button btn-green medium">ID-kaart</a></li>
-		    			<li><a href="portaal.html" class="radius button btn-green medium">Mobiil-ID</a></li>
+		    			<li><a href="portaal-full.html" class="radius button btn-green medium">Fullwidth</a></li>
+		    			<li><a href="portaal.html" class="radius button btn-green medium">As sample</a></li>
+                        <li><a href="portaal-simple.html" class="radius button btn-green medium">Simple</a></li>
 		    		</ul>
 		    		</div>
 		    	</div>
@@ -78,14 +82,14 @@
 	</div>
 
 	<div class="row">
-		<div id="choose" class="eight columns centered">
+		<div id="choose" class="eight columns ">
 			<h3>Allkirjasta kolme sammuga</h3>
 
 			<!-- Grid Example -->
 			<div class="row">
 				<div class="twelve columns">
-					<div class="panel">
-						<p>1. Lohista dokument siia aknasse või kasuta nuppu</p>
+					<div class="panel oldshadow">
+						<p>1. Lohista dokument siia aknasse või </p>
 						<p><a href="#" class="radius button btn-green medium">Vali fail</a></p>
 						<p class="subhead">2. Lisa lepingupooled</p>
 						<p class="subhead">3. Vajuta "Allkirjasta"</p>
@@ -93,6 +97,9 @@
 				</div>
 			</div>
 		</div>
+        <div  class="four columns">
+            <img id="introimg" src="images/pen_hand.gif" />
+        </div>
 	</div>
 
 	<div class="row">
