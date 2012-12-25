@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
 /* line 5, ../../../../../usr/local/rvm/gems/ruby-1.9.3-p327@allkiri/gems/zurb-foundation-3.2.3/scss/foundation/common/_globals.scss */
@@ -7212,4 +7213,136 @@ body.off-canvas {
   [role="navigation"]#topMenu {
     display: none;
   }
+}
+/*
+* Allkiri.ee custom style
+* Base style Zurb Foundation 3
+* made by Mare Hunt 2012 marehunt.era.ee
+* for Deskrock www.deskrock.ee
+*/
+/* Table of Content
+==================================================
+    #Overrides
+    #Site Styles
+    #Page Styles
+    #Media Queries
+    #Font-Face */
+/* #Overrides for default Foundation
+================================================== */
+/* line 69, ../sass/app.scss */
+body {
+  background: white url("../images/bg_footer_swirl.png") repeat;
+}
+
+/* line 73, ../sass/app.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+/* line 78, ../sass/app.scss */
+.top-bar {
+  margin: 0;
+}
+
+/* line 82, ../sass/app.scss */
+label {
+  font: inherit;
+  line-height: 1.6;
+}
+
+/* line 87, ../sass/app.scss */
+.has-tip {
+  font-weight: normal;
+}
+
+/* #Site Styles
+================================================== */
+/* line 93, ../sass/app.scss */
+#subtop {
+  background-color: #E6E6E6;
+  overflow: auto;
+  width: 100%;
+  padding: auto;
+}
+/* line 98, ../sass/app.scss */
+#subtop li {
+  padding-left: 15px;
+  line-height: 4;
+}
+
+/* line 104, ../sass/app.scss */
+.numbercircle {
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  width: 42px;
+  height: 42px;
+  padding: 15px;
+  background-color: #fff;
+  color: #666;
+  text-align: left;
+  font-size: 32px;
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  font-weight: 300;
+  line-height: 0.2;
+}
+
+/* line 131, ../sass/app.scss */
+​
+#choose {
+  margin: 120px auto;
+}
+
+/* line 135, ../sass/app.scss */
+#partners img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+/* line 141, ../sass/app.scss */
+#partners img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+}
+
+/* line 149, ../sass/app.scss */
+#enter p {
+  padding-top: 20px;
+}
+
+/* #Portaal
+================================================== */
+/* line 155, ../sass/app.scss */
+#portal ul.accordion > li > div.title {
+  padding: 7px;
+  text-align: center;
+}
+
+/* line 160, ../sass/app.scss */
+#portal ul.accordion > li > div.title::after {
+  top: 12px;
+}
+
+/* line 164, ../sass/app.scss */
+#portal ul.accordion {
+  margin-bottom: 0;
+}
+
+/* line 168, ../sass/app.scss */
+#contract.panel p {
+  color: #080808;
+  font-family: Cambria, "Hoefler Text", Georgia, "Times New Roman", serif;
+  font-size: 1.3em;
+  margin: 1.2em 3em 1.2em 1.2em;
+}
+
+/* line 175, ../sass/app.scss */
+#contract.panel {
+  background: white;
 }

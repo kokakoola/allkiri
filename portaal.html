@@ -16,14 +16,14 @@
 	<link rel="stylesheet" href="stylesheets/app.css">
 	<link rel="stylesheet" href="stylesheets/awesome_buttons.css">
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Antic' type='text/css'>
-	<link rel="stylesheet" href="stylesheets/social_foundicons.css">
+	<link rel="stylesheet" href="fonts/FortAwesome/css/font-awesome.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="stylesheets/layout.css">
 
+	<!-- Included Javascript Files -->
 	<script src="javascripts/foundation/modernizr.foundation.js"></script>
 
-</head>
-<body>
+</head> <!-- end head -->
+<body id="portal">
 
 	  <nav class="top-bar">
     <ul>
@@ -50,117 +50,145 @@
         </li>
       </ul>
     </section>
-  </nav>
-
-    <!-- End Navigation -->
+  </nav><!-- End Navigation -->
 
     	<div id="subtop" class="container">
     		<div class="row">
     			<div class="twelve columns">
-	    		<div id="enter" class="six columns offset-by-three">
-	    			<p>Soovid sa vaadata oma salvestatud dokumente? Astu sisse!</p>
-	    		</div>
-	    		<div class="right">
-		    		<ul id="login" class="button-group">
-		    			<li><a href="portaal.html" class="radius button btn-green medium">ID-kaart</a></li>
-		    			<li><a href="portaal.html" class="radius button btn-green medium">Mobiil-ID</a></li>
-		    		</ul>
-		    		</div>
+    				<br />
+    				<h2>2 <small>Selgitav tekst sammu kohta</small></h2>
+	    			<p class="subheader">Feta rubber cheese when the cheese comes out everybody's happy. Red leicester airedale chalk and cheese croque monsieur st. agur blue cheese melted cheese croque monsieur smelly cheese. Red leicester cheeseburger queso cheese slices babybel hard cheese parmesan squirty cheese. Everyone loves fromage cheddar chalk and cheese cheese and wine swiss taleggio emmental. Gouda bocconcini camembert de normandie.</p>
 		    	</div>
 		    </div>
-    	</div>
+    	</div><!-- End Subhead -->
 
 	<div class="row">
 		<div class="twelve columns">
-			<h2>Tere tulemast Allkiri.ee keskkonda</h2>
-			<h3 class="subhead">Dokumendihaldus inimlikus vormis</h3>
+			<h2>Ostu-müügi leping </h2>
+
+			<h3 class="subheader">Dokumendi eelvaade</h3>
 			<hr />
 		</div>
 	</div>
 
+<!-- Start documentview -->
 	<div class="row">
-		<div id="choose" class="nine columns">
-			<h3>Allkirjasta kolme sammuga</h3>
-
-			<!-- Grid Example -->
+		<div id="documentview" class="nine columns">
 			<div class="row">
 				<div class="twelve columns">
-					<!-- start subnav -->
-					<nav class="top-bar">
-  <ul>
-    <li class="name"><h1><a href="#">Title</a></h1></li>
-    <li class="divider"></li>
-    <li class="toggle-topbar"><a href="#"></a></li>
-  </ul>
-  <section>
-    <ul class="left">
-      <li class="search">
-  <form>
-    <input type="search">
-  </form>
-</li>
-    </ul>
+					<div class="row collapse">
+						<div class="three columns">
+							<ul class="accordion">
+								<li>
+									<div class="title">
+										<h><i class="icon-calendar"></i>Kronoloogia</h5>
+									</div>
+									<div class="content">
+										<dl>
+											<dt>02.12.2012 Rainer Sai <br /><span class="subheader">Allkirjastas 20.11.2012 kell 20.11 </span></dt>
+											<hr />
+											<dt>02.12.2012  Ants Liivat <br /><span class="subheader">Vaatas 20.10.2012 kell 14.11 </span></dt>
+											<hr />
+											<dt>02.12.2012  Ants Liivat <br /><span class="subheader">Saatis dokumendid Mihkel Sokule ülevaatamiseks</span></dt>
+										</dl>
+									</div>
+								</li>
+							</ul>
+						</div> <!-- end accordion -->
 
-  </section>
-</nav>
-
-<!-- Positioning the Top Bar -->
-<div class="fixed contain-to-grid">
-  <!-- <nav> goes here -->
-</div>
-
-<!-- Other elements for Top Bar -->
-
-
-
-
-
-
-<!-- end subnav -->
-					<div class="panel">
-						<p>1. Lohista dokument siia aknasse või kasuta nuppu</p>
-						<p><a href="#" class="radius button btn-green medium">Vali fail</a></p>
-						<p class="subhead">2. Lisa lepingupooled</p>
-						<p class="subhead">3. Vajuta "Allkirjasta"</p>
+					<div class="three column">
+						<div href="#" class="medium button secondary dropdown expand">
+						  <i class="icon-download-alt"></i> Lae alla
+						  <ul>
+						    <li><a href="#">Digidoc</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">PDF</a></li>
+						  </ul>
+						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	    <div class="three columns">
+
+					<div class="three column">
+						<a class="medium button secondary expand" href="#"><i class="icon-print"></i> Prindi</a>
+					</div>
+
+					<div class="three column">
+						<div href="#" class="medium button btn-green dropdown expand">
+						  <i class="icon-legal"></i> Allkirjasta
+						  <ul>
+						    <li><a href="#">ID-kaardiga</a></li>
+						    <li class="divider"></li>
+						    <li><a href="#">Mobiil-IDga</a></li>
+						  </ul>
+						</div>
+					</div> <!-- last buttons -->
+
+					</div> <!-- end Subnav -->
+
+<!-- start Documentwindow -->
+					<div id="contract" class="panel">
+						<p>I love cheese, especially cheesy grin camembert de normandie. Cheddar mozzarella mascarpone the big cheese jarlsberg cheese strings goat cheese and biscuits. Babybel emmental cheesecake say cheese swiss cheese slices mascarpone queso. Cheese and wine smelly cheese airedale bocconcini mozzarella dolcelatte.</p>
+
+						<p>Feta rubber cheese when the cheese comes out everybody's happy. Red leicester airedale chalk and cheese croque monsieur st. agur blue cheese melted cheese croque monsieur smelly cheese. Red leicester cheeseburger queso cheese slices babybel hard cheese parmesan squirty cheese. Everyone loves fromage cheddar chalk and cheese cheese and wine swiss taleggio emmental. Gouda bocconcini camembert de normandie.</p>
+
+						<p>Cheese and biscuits queso say cheese. Rubber cheese queso hard cheese taleggio brie queso cut the cheese brie. Fromage camembert de normandie cheese triangles gouda babybel stilton ricotta brie. Cheese and biscuits ricotta rubber cheese hard cheese feta cheese on toast bavarian bergkase.</p>
+
+						<p>Caerphilly when the cheese comes out everybody's happy swiss. Smelly cheese cheesy feet fondue bavarian bergkase cheesecake cut the cheese jarlsberg cheesy feet. Cheeseburger cheese and wine pecorino cheese and biscuits cheeseburger monterey jack pecorino cheese and wine. Cottage cheese smelly cheese dolcelatte cheddar emmental cheeseburger everyone loves danish fontina. Rubber cheese lancashire.</p>
+
+						<p>Hard cheese cheeseburger manchego. Cheese strings emmental cheese slices boursin when the cheese comes out everybody's happy cheddar blue castello paneer. Dolcelatte roquefort lancashire taleggio danish fontina the big cheese dolcelatte camembert de normandie. Cheese on toast manchego red leicester everyone loves who moved my cheese.</p>
+
+						<p>Gouda roquefort brie. Blue castello lancashire bocconcini edam feta parmesan rubber cheese cream cheese. Edam cheese and wine smelly cheese bavarian bergkase the big cheese dolcelatte stinking bishop brie. Melted cheese red leicester.</p>
+
+						<p>Dolcelatte the big cheese croque monsieur. Smelly cheese cheesy feet gouda caerphilly st. agur blue cheese cheese and wine danish fontina cheesy feet. Mascarpone jarlsberg bavarian bergkase melted cheese pepper jack macaroni cheese when the cheese comes out everybody's happy fondue. Ricotta queso manchego queso pepper jack cheddar mozzarella bocconcini. Blue castello port-salut.</p>
+
+						<p>Emmental halloumi cottage cheese. St. agur blue cheese swiss jarlsberg cheese and biscuits pepper jack cheese strings brie cottage cheese. Cottage cheese cottage cheese when the cheese comes out everybody's happy fondue caerphilly queso cheesy feet fondue. Queso cheese on toast parmesan.</p>
+
+						<p>Cheese slices cheese and biscuits ricotta. Cheese slices manchego croque monsieur roquefort hard cheese dolcelatte jarlsberg taleggio. Cheeseburger brie cottage cheese airedale airedale red leicester camembert de normandie queso. Caerphilly stilton cottage cheese stilton cauliflower cheese fromage queso macaroni cheese. St. agur blue cheese cheddar st. agur blue cheese.</p>
+
+						<p>Hard cheese parmesan taleggio. Red leicester bocconcini when the cheese comes out everybody's happy cauliflower cheese parmesan brie fondue feta. Airedale melted cheese fromage frais everyone loves danish fontina babybel queso who moved my cheese. Ricotta cheesy grin melted cheese st. agur blue cheese boursin pecorino caerphilly bocconcini. Mascarpone melted cheese port-salut.</p> <!-- End Cheese Ipsum -->
+
+					</div> <!-- end panel -->
+				</div> <!-- end twelve columns -->
+			</div> <!-- end row -->
+		</div> <!-- end Documentview -->
+
+<!-- Start Sidebar -->
+	    <div class="three columns"> 
 	    	<div class="panel radius">
 	        	<h4><span class="has-tip tip-top" data-width="210" title="Siia saab eri viisidel faili andmed kirja panna. Ma ise paneks tooltipina. Vt allpool 2 varianti" >Vali dokument</span></h4>
 		        <form class="custom">
 		        	<label for="checkbox1"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span> Järelmaks.pdf</label>
 		        	<span class="subheader">Suurus: 180 kb Tüüp: pdf </span>
+		        	<hr />
 	      			<label for="checkbox2"><input type="checkbox" id="checkbox2" checked style="display: none;"></span> Auto ostu-müügi leping 21-12-2012</label>
+	      			<hr />
 	      			<label for="checkbox3"><input type="checkbox" style="display: none;"> <span class="has-tip tip-top" data-width="210" title="Tüüp: pdf <br />Suurus: 200 kb <br />Loodud: 14.12.2012" >Testament</span></label>
 	      		</form>
 	      			<a class="tiny round btn-green button right" href="#">Lisa dokument</a>
-    		</div>
+    		</div> <!-- radiuspanel -->
 
 	    	<div class="panel radius">
 	        	<h4>Lepingupooled</h4>
 	      		<dl>
-					<dt><i class=" socialicon-torso"></i> Ants Liivat <br /><span class="subheader">Allkirjastas 20.11.2012 kell 20.11 </span></dt>
+					<dt><i class="icon-user"></i>Ants Liivat <br /><span class="subheader">Allkirjastas 20.11.2012 kell 20.11 </span></dt>
 					<hr />
-					<dt><i class=" socialicon-torso"></i> Jaak Lehtsalu <br /><span class="subheader">Vaatas 20.10.2012 kell 14.11 </span></dt>
+					<dt><i class="icon-user"></i> Jaak Lehtsalu <br /><span class="subheader">Vaatas 20.10.2012 kell 14.11 </span></dt>
 					<hr />
 				</dl>
 	      			<p><a class="tiny round btn-green button right" href="#">Vaata kõiki</a></p>
-	    	</div>
+	    	</div> <!-- End radiuspanel -->
 
 	    	<div class="panel radius">
 		        <h4><span class="has-tip tip-top" data-width="210" title="See on endise nimega 'Jagamised'. Mis mulle jäi hämaraks. Vbl sain ma valesti aru ja läks veel hämaramaks" >Saadetud</span></h4>
 	      		<dl>
-					<dt><i class=" socialicon-torso"></i> Rainer Sai <br /><span class="subheader">Vaatas 20.11.2012 kell 20.11 </span></dt>
+					<dt><i class="icon-user"></i> Rainer Sai <br /><span class="subheader">Vaatas 20.11.2012 kell 20.11 </span></dt>
 					<hr />
-					<dt><i class=" socialicon-torso"></i> Ants Liivat <br /><span class="subheader">Vaatas 20.10.2012 kell 14.11 </span></dt>
+					<dt><i class="icon-user"></i> Ants Liivat <br /><span class="subheader">Vaatas 20.10.2012 kell 14.11 </span></dt>
 					<hr />
 				</dl>
-	      			<p><a class="tiny round btn-green button right" href="#">Saada ülevaatamiseks</a></p>
-	    	</div>
+	      			<p><a class="tiny round secondary button right" href="#">Saada ülevaatamiseks</a></p>
+	    	</div> <!-- End radiuspanel -->
 
-	    	<div class="panel radius">
+<!-- 	    	<div class="panel radius">
 	        <h4><span class="has-tip tip-top" data-width="210" title="Toimingud kronoloogilises järjekorras" >Kronoloogia</span></h4>
 	      		<dl>
 					<dt>02.12.2012 Rainer Sai <br /><span class="subheader">Allkirjastas 20.11.2012 kell 20.11 </span></dt>
@@ -169,19 +197,11 @@
 					<hr />
 					<dt>02.12.2012  Ants Liivat <br /><span class="subheader">Saatis dokumendid Mihkel Sokule ülevaatamiseks</span></dt>
 				</dl>
-	    	</div>
-	</div>
+	    	</div> --> <!-- End radiuspanel -->
+		</div> <!-- End Sidebar three columns -->
+	</div> <!-- End Center area row -->
 
-	<div class="row">
-		<div id="partners" class="twelve columns">
-			<p class="right">Partnerid: 
-				<a href="http://www.cofi.ee/" target="_blank"><img src="images/logo_cofi_footer.png" alt="cofi" title="cofi" /></a>
-				<a href="http://www.onoff.ee/" target="_blank"><img src="images/logo_onoff.png" alt="onoff" title="onoff" /></a>
-			</p> 
-		</div>
-	</div>
-
-
+<!-- Start bottom area -->
 	<div class="row">
 		<div class="twelve columns">
 			<hr />
