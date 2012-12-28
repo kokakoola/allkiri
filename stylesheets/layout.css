@@ -13,27 +13,53 @@
     #Font-Face */
 /* #Overrides for default Foundation
 ================================================== */
-/* line 24, ../sass/layout.scss */
-h2, h3 {
-  font-family: 'Antic Slab', serif;
+@-webkit-keyframes greenPulse {
+  /* line 25, ../sass/layout.scss */
+  from {
+    background-color: #749a02;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
+
+  /* line 26, ../sass/layout.scss */
+  50% {
+    background-color: #91bd09;
+    -webkit-box-shadow: 0 0 18px #91bd09;
+  }
+
+  /* line 27, ../sass/layout.scss */
+  to {
+    background-color: #749a02;
+    -webkit-box-shadow: 0 0 9px #333;
+  }
 }
 
-/* line 28, ../sass/layout.scss */
+/* line 30, ../sass/layout.scss */
+a.green.button {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* line 36, ../sass/layout.scss */
+h2, h3 {
+  font-family: 'Open Sans', serif;
+}
+
+/* line 40, ../sass/layout.scss */
 p {
   font-family: 'Open Sans', serif;
 }
 
-/* line 31, ../sass/layout.scss */
+/* line 43, ../sass/layout.scss */
 body {
-  background: #F8FAF0;
+  background: #f8f7f2;
   z-index: 1;
 }
 
-/* line 35, ../sass/layout.scss */
+/* line 47, ../sass/layout.scss */
 body:after {
   content: "";
-  background: url("../images/wavecut.png") repeat;
-  opacity: 0.3;
+  background: url("../images/bg_footer_swirl.png") repeat;
   height: 100%;
   width: 100%;
   left: 0;
@@ -43,12 +69,12 @@ body:after {
   position: absolute;
 }
 
-/* line 48, ../sass/layout.scss */
+/* line 59, ../sass/layout.scss */
 #contract.panel {
   background: white;
 }
 
-/* line 53, ../sass/layout.scss */
+/* line 64, ../sass/layout.scss */
 h2 {
   text-align: center;
   text-shadow: 0 1px 1px white;
@@ -56,15 +82,15 @@ h2 {
   font-size: 18px;
 }
 
-/* line 60, ../sass/layout.scss */
+/* line 71, ../sass/layout.scss */
 h2 span {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #F4F5F5;
 }
 
-/* line 67, ../sass/layout.scss */
-#introimg {
+/* line 78, ../sass/layout.scss */
+#choose {
   background-color: #fffeff;
   padding: 10px;
   border: 1px solid #bbbfc2;
@@ -81,9 +107,11 @@ h2 span {
   -webkit-background-clip: padding-box;
 }
 
-/* line 83, ../sass/layout.scss */
-#introimg:hover {
-  -webkit-box-shadow: 0px 0px 2px #60a2e3;
+/* line 94, ../sass/layout.scss */
+#choose:hover {
+  -moz-box-shadow: #60a2e3 0px 0px 2px;
+  -webkit-box-shadow: #60a2e3 0px 0px 2px;
+  box-shadow: #60a2e3 0px 0px 2px;
   -moz-box-shadow: 0px 0px 2px #60a2e3;
   border: 1px solid #60a2e3;
   -webkit-transition: all 0.10s ease-in-out;
@@ -91,8 +119,69 @@ h2 span {
   position: relative;
 }
 
-/* line 92, ../sass/layout.scss */
+/* line 104, ../sass/layout.scss */
 .oldshadow {
-  background: white;
-  box-shadow: inset 0 0 50px #ebebeb;
+  background: #f8f7f2;
+  -moz-box-shadow: inset #ebebeb 0px 0px 50px;
+  -webkit-box-shadow: inset #ebebeb 0px 0px 50px;
+  box-shadow: inset #ebebeb 0px 0px 50px;
+}
+
+/* line 110, ../sass/layout.scss */
+.custom {
+  border: 2px solid #304134;
+  -moz-box-shadow: inset #3e4e42 0px 0px 25px, black 0px 2px 2px;
+  -webkit-box-shadow: inset #3e4e42 0px 0px 25px, black 0px 2px 2px;
+  box-shadow: inset #3e4e42 0px 0px 25px, black 0px 2px 2px;
+  background: #4f6452 url("../images/btn_green.jpg") repeat-x;
+  font-family: 'Cambria';
+  text-transform: uppercase;
+}
+
+/* line 121, ../sass/layout.scss */
+.top-bar {
+  background: transparent;
+  height: 109px;
+}
+
+/* line 126, ../sass/layout.scss */
+#topbar {
+  background: transparent url("../images/topbar.png") repeat-x;
+}
+
+/* line 130, ../sass/layout.scss */
+#logocontainer {
+  padding-left: 15px;
+}
+
+/* line 134, ../sass/layout.scss */
+#logo {
+  background: transparent url("../images/logo.png") no-repeat;
+  width: 219px;
+  height: 109px;
+}
+
+/* line 140, ../sass/layout.scss */
+#subtop {
+  background: #4f6452 url("../images/greenenoise.jpg") repeat;
+  -moz-box-shadow: inset #3e4e42 0px 0px 25px, black 0px 2px 2px;
+  -webkit-box-shadow: inset #3e4e42 0px 0px 25px, black 0px 2px 2px;
+  box-shadow: inset #3e4e42 0px 0px 25px, black 0px 2px 2px;
+  margin-top: -45px;
+}
+
+/* line 146, ../sass/layout.scss */
+#subtop-inner {
+  background: transparent url("../images/glow.jpg") no-repeat center 0;
+}
+
+/* line 151, ../sass/layout.scss */
+#subtop-content {
+  margin: 30px auto;
+}
+/* line 153, ../sass/layout.scss */
+#subtop-content h5 {
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  text-align: right;
 }

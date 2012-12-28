@@ -11,7 +11,7 @@
 
 @import "compass/css3";
 @import "foundation/settings";
-// @import "foundation/functions/all";
+@import "foundation/functions/all";
 
 // Control which mixins you have access too
 
@@ -33,18 +33,18 @@
 
 // Control which common styles get compiled
 
-// @import "foundation/common/typography";
+@import "foundation/common/typography";
 @import "foundation/common/forms";
 
 // Control which components you get if customizing
 
 @import "foundation/components/modules/buttons";
 // @import "foundation/components/modules/tabs";
-// @import "foundation/components/modules/ui";
+@import "foundation/components/modules/ui";
 // @import "foundation/components/modules/topbar";
-// @import "foundation/components/modules/navbar";
+@import "foundation/components/modules/navbar";
 // @import "foundation/components/modules/orbit";
-// @import "foundation/components/modules/reveal";
+@import "foundation/components/modules/reveal";
 @import "foundation/components/modules/offcanvas";
 
 // Media Queries Overrides
@@ -170,4 +170,43 @@ label {
 
 #contract.panel {
     background: white;
+}
+
+#topbar {
+    background: black;
+    width: 100%
+}
+
+#signit {
+    margin: 20px 0;
+}
+
+#mailinput {
+    height: 38px;
+    font: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#buttonrow {
+    margin-bottom: -24px;
+    background: #E6E6E6;
+    [class^="icon-"] {
+        color: #888;
+    }
+}
+
+#subtop.row {
+    margin: 40px auto;
+}
+
+#headline {
+    margin: 30px auto;
+}
+
+#aditions dt {
+    line-height: 3em;
+}
+
+#sidebar h4 {
+    margin-top: 0px;
+    margin-bottom: 30px;
 }

@@ -21,21 +21,32 @@
     box-shadow: $shadows;
 }
 
+@-webkit-keyframes greenPulse {
+from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+a.green.button {
+-webkit-animation-name: greenPulse;
+-webkit-animation-duration: 2s;
+-webkit-animation-iteration-count: infinite;
+}
+
 h2, h3 {
-    font-family: 'Antic Slab', serif;
+    font-family: 'Open Sans', serif;
 }
 
 p {
     font-family: 'Open Sans', serif;
 }
 body {
-    background: #F8FAF0;
+    background: #f8f7f2;
     z-index: 1;
 }
 body:after {
     content:"";
-    background: url('../images/wavecut.png') repeat;
-    opacity: 0.3;
+    background: url('../images/bg_footer_swirl.png') repeat;
     height: 100%;
     width: 100%;
     left: 0;
@@ -64,7 +75,7 @@ background-color: #F4F5F5;
 }
 
 // box shadow crisp
-#introimg {
+#choose {
 background-color: #fffeff;
   padding: 10px;
   
@@ -80,8 +91,9 @@ background-color: #fffeff;
   -webkit-background-clip: padding-box;
 }
 
-#introimg:hover {
-    -webkit-box-shadow: 0px 0px 2px #60a2e3;
+#choose:hover {
+  // -webkit-box-shadow: 0px 0px 2px #60a2e3;
+  @include box-shadow( #60a2e3  0px 0px 2px); 
   -moz-box-shadow: 0px 0px 2px #60a2e3;
   border: 1px solid #60a2e3;
   -webkit-transition: all 0.10s ease-in-out;
@@ -90,6 +102,59 @@ background-color: #fffeff;
 }
 
 .oldshadow { 
-    background: white;
-    box-shadow: inset 0 0 50px #ebebeb; 
+    background: #f8f7f2;
+    // box-shadow: inset 0 0 50px #ebebeb;
+    @include box-shadow( inset #ebebeb  0px 0px 50px); 
 }
+
+.custom {
+    border: 2px solid #304134;
+    @include box-shadow( inset #3e4e42  0px 0px 25px, black  0px 2px 2px);
+    
+    background: #4f6452 url('../images/btn_green.jpg') repeat-x;
+    font-family: 'Cambria';
+    text-transform: uppercase;
+}
+
+ // header style
+ // -----------------
+.top-bar {
+    background: transparent;
+    height: 109px;
+}
+
+#topbar {
+    background: transparent url('../images/topbar.png') repeat-x;
+}
+
+#logocontainer {
+    padding-left: 15px; 
+}
+
+#logo {
+    background: transparent url('../images/logo.png') no-repeat;
+    width: 219px;
+    height: 109px;   
+}
+
+#subtop {
+    background: #4f6452 url('../images/greenenoise.jpg') repeat;
+    @include box-shadow( inset #3e4e42  0px 0px 25px, black  0px 2px 2px);
+    margin-top: -45px;
+}
+
+#subtop-inner {
+
+    background: transparent url('../images/glow.jpg') no-repeat center 0;
+}
+
+#subtop-content {
+    margin: 30px auto;
+    h5 {
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+        text-align: right;
+    }
+}
+
+

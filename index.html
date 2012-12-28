@@ -26,21 +26,21 @@
 
 </head>
 <body>
-
+    <div id="topbar" class="container">
+        <div class="row">
 	  <nav class="top-bar">
-    <ul>
+        <!-- <div id="logo"></div> -->
+   <!--  <ul>
       <li class="name"><h1><a href="#">Title</a></h1></li>
       <li class="toggle-topbar"><a href="#"></a></li>
-    </ul>
+    </ul> -->
 
     <section>
-      <ul class="left">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+      <ul id="logocontainer" class="left">
+        <li id="logo"><a href="#"></a></li>
       </ul>
 
-      <ul class="right">
+<!--       <ul class="right">
         <li class="has-dropdown">
           <a href="#">Link</a>
 
@@ -50,28 +50,29 @@
             <li><a href="#">Dropdown Link</a></li>
           </ul>
         </li>
-      </ul>
+      </ul> -->
     </section>
   </nav>
-
+</div> <!-- end row -->
+</div> <!-- end container -->
     <!-- End Navigation -->
 
-    	<div id="subtop" class="container">
-    		<div class="row">
-    			<div class="twelve columns">
-	    		<div id="enter" class="six columns offset-by-one">
-	    			<p>Soovid sa vaadata oma salvestatud dokumente? Astu sisse!</p>
-	    		</div>
-	    		<div class="five columns right">
-		    		<ul id="login" class="button-group">
-		    			<li><a href="portaal-full.html" class="radius button btn-green medium">Fullwidth</a></li>
-		    			<li><a href="portaal.html" class="radius button btn-green medium">As sample</a></li>
-                        <li><a href="portaal-simple.html" class="radius button btn-green medium">Simple</a></li>
-		    		</ul>
-		    		</div>
-		    	</div>
-		    </div>
-    	</div>
+	<div id="subtop" class="container">
+		<div id="subtop-inner" class="row">
+			<div id="subtop-content" class="twelve columns">
+        		<div class="six columns offset-by-one">
+        			<h5 class="right">Soovid Sa vaadata oma salvestatud dokumente? <br />Astu sisse!</h5>
+        		</div>
+        		<div class="five columns ">
+    	    		<ul id="login" class="button-group right">
+    	    			<li><a href="portaal-full.html" class="radius button btn-green medium">Fullwidth</a></li>
+    	    			<li><a href="portaal.html" class="radius button btn-green medium">As sample</a></li>
+                        <li><a href="portaal-simple.html" class="radius button custom medium">Simple</a></li>
+    	    		</ul>
+    	    		</div>
+    	    	</div>
+	    </div>
+	</div>
 
 	<div class="row">
 		<div class="twelve columns">
@@ -82,15 +83,15 @@
 	</div>
 
 	<div class="row">
-		<div id="choose" class="eight columns ">
+		<div class="eight columns ">
 			<h3>Allkirjasta kolme sammuga</h3>
 
 			<!-- Grid Example -->
 			<div class="row">
 				<div class="twelve columns">
-					<div class="panel oldshadow">
+					<div id="choose" class="panel oldshadow">
 						<p>1. Lohista dokument siia aknasse või </p>
-						<p><a href="#" class="radius button btn-green medium">Vali fail</a></p>
+						<!-- <p><a href="#" class="a green button">Vali fail</a></p> -->
 						<p class="subhead">2. Lisa lepingupooled</p>
 						<p class="subhead">3. Vajuta "Allkirjasta"</p>
 					</div>
